@@ -1,6 +1,8 @@
-# ConSense
+# ConSense: Graph-based Contract Sensing Framework for Smart Contract Vulnerability Detection
 
-Graph-based Contract Sensing Framework for Smart Contract Vulnerability Detection.
+> 🎉 This work is published in [IEEE Transactions on Big Data](https://ieeexplore.ieee.org/document/11104930)
+
+# Network Architecture
 
 ![Overall](./figures/overall.png)
 
@@ -8,9 +10,9 @@ Graph-based Contract Sensing Framework for Smart Contract Vulnerability Detectio
 
 ![ExploreFormer](./figures/gnn.png)
 
-## Datasets
+# Data Description
 
-### IR-ESCD
+## IR-ESCD
 
 This dataset focuses on eight types of security vulnerabilities: timestamp dependency (TP), block number dependency (BN), dangerous delegatecall (DE), Ether frozen (EF), unchecked external call (UC), reentrancy (RE), integer overflow (OF), and dangerous Ether strict equality (SE).
 
@@ -28,7 +30,7 @@ Dataset source: https://github.com/Messi-Q/Smart-Contract-Dataset (Resource 3)
 }
 ```
 
-###  SCVHunter-SCD
+##  SCVHunter-SCD
 
 This dataset includes 203 contracts with reentrancy vulnerabilities, 60 contracts exhibiting timestamp dependency vulnerabilities, and 180 contracts with transaction state dependency vulnerabilities.
 
@@ -44,7 +46,13 @@ Dataset source: https://figshare.com/articles/software/scvhunter/24566893/1?file
 }
 ```
 
-## Runing
+# Results
+
+![Result 1](./figures/res1.png)
+
+![Result 2](./figures/res2.png)
+
+# Runing
 
 1. Label Preprocess
 
@@ -68,7 +76,7 @@ python graph_scvhunter.py
 python main.py
 ```
 
-## Requirements
+# Requirements
 
 ```bash
 # Ubuntu 22.04.4 LTS
