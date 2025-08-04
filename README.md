@@ -2,6 +2,8 @@
 
 > 🎉 This work is published in [IEEE Transactions on Big Data](https://ieeexplore.ieee.org/document/11104930)
 
+[![huggingface weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-deepang/ConSense-yellow)](https://huggingface.co/deepang/ConSense)&nbsp;
+
 # Network Architecture
 
 ![Overall](./figures/overall.png)
